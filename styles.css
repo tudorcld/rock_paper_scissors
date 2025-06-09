@@ -1,0 +1,103 @@
+* {
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+body {
+  background-color: #202123;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.chooser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 20vw;
+}
+
+.chooser > button > img {
+  width: 7rem;
+  height: 7rem;
+  overflow: visible;
+}
+
+.botside > img {
+  width: 7rem;
+  height: 7rem;
+  overflow: visible;
+}
+
+.botside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 20vw;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 2rem;
+  width: 20vw;
+}
+
+.scoreboard > p {
+  font-size: 1.5rem;
+}
+
+.scoreboard2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  gap: 2rem;
+  width: 20vw;
+}
+
+.scoreboard2 > p {
+  font-size: 2rem;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  flex-direction: row;
+  width: 60vw;
+  height: 80vh;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 2rem;
+}

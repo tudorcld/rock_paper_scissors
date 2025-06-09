@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap"
+      rel="stylesheet" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Rock Paper Scissors</h1>
+    </div>
+    <section class="game">
+      <div class="chooser">
+        <h1>Choose your weapon</h1>
+        <button id="rock"><img src="rock.svg" alt="" /></button>
+        <button id="paper"><img src="paper.svg" alt="" /></button>
+        <button id="scissors"><img src="scissors.svg" alt="" /></button>
+      </div>
+      <div class="scoreboard">
+        <div class="scoreboard2">
+          <p>Player</p>
+          <p id="humanscore"></p>
+          <p>Bot</p>
+          <p id="botscore"></p>
+        </div>
+        <p id="result"></p>
+      </div>
+      <div class="botside">
+        <h1>The bot will choose</h1>
+        <img src="" alt="" id="computerimg" />
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
